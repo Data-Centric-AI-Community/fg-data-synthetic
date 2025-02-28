@@ -30,16 +30,16 @@ However, it was not optimized for the quality, performance, and scalability need
 
     Additionally, tabular data usually comprises both *numeric* and *categorical* features. **Numeric** features are those that encode **quantitative** values, whereas **categorical** represent **qualitative** measurements. Categorical features can further divided in *ordinal*, *binary* or *boolean*, and *nominal* features.
     
-    Learn more about synthesizing tabular data in this [article](https://ydata.ai/resources/gans-for-synthetic-data-generation), or check the [quickstart guide](getting-started/quickstart.md#synthesizing-a-tabular-dataset) to get started with the synthesization of tabular datasets.
+    Learn more about synthesizing tabular data in this [article](https://ydata.ai/resources/gans-for-synthetic-data-generation), or check the [quickstart guide](/synthetic_data/single_table/ctgan_example) to get started with the synthesization of tabular datasets.
 
 === "Time-Series Data"
     **Time-series data** exhibit a sequencial, **temporal dependency** between records, and may present a wide range of patterns and trends, including **seasonality** (patterns that repeat at calendar periods -- days, weeks, months -- such as holiday sales, for instance) or **periodicity** (patterns that repeat over time).
 
-    Read more about generating [time-series data in this article](https://ydata.ai/resources/synthetic-time-series-data-a-gan-approach) and check this [quickstart guide](getting-started/quickstart.md#synthesizing-a-time-series-dataset) to get started with time-series data synthesization.
+    Read more about generating [time-series data in this article](https://ydata.ai/resources/synthetic-time-series-data-a-gan-approach) and check this [quickstart guide](/synthetic_data/time_series/timegan_example) to get started with time-series data synthesization.
 
 === "Multi-Table Data"
     **Multi-Table data** or databases exhibit a referential behaviour between and database schema that is expected to be replicated and respected by the synthetic data generated. 
-    Read more about database [synthetic data generation in this article]() and check this [quickstart guide for Multi-Table synthetic data generation]()
+    Read more about database [synthetic data generation in this article](https://ydata.ai/resources/whitepaper-relational-databases-synthetic-data) and check this [video guide for Multi-Table synthetic data generation](https://www.youtube.com/watch?v=40Q56xZbv00&ab_channel=YData)
     **Time-series data** exhibit a sequential, **temporal dependency** between records, and may present a wide range of patterns and trends, including **seasonality** (patterns that repeat at calendar periods -- days, weeks, months -- such as holiday sales, for instance) or **periodicity** (patterns that repeat over time).
 
 ## Validate the quality of your synthetic data generated

@@ -12,7 +12,11 @@
     Heading towards the future of synthetic data generation we recommend everyone to transition to [ydata-sdk](https://docs.sdk.ydata.ai/latest/), which provides a superior experience with enhanced performance, precision, and ease of use, making it the preferred tool for synthetic data generation and a perfect introduction to Generative AI. 
 
 
-### Older version with open-source models
-[Check the deprecated documentation](docs/getting-started/index.md)
+
+
+
+
+#### Older version with open-source models
+Check the deprecated documentation [here](getting-started/index.md).
 
 <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=dd69a9f9-0901-4cb4-9e56-b1e69877dca1" />

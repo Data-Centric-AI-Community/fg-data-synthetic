@@ -5,15 +5,14 @@ edit_uri: ""
 dev_addr: 0.0.0.0:1234
 site_dir: "static/docs"
 nav:
-  - Getting started:
-    - 'index.md'
+  - Getting started: 'index.md'
+  - YData Fabric (GUI): "ydata_fabric_app.md"
   - Older versions:
-    - 'getting-started/index.md'
-    - Overview: 'index.md'
+    - Overview: 'getting-started/index.md'
     - Installation: 'getting-started/installation.md'
     - Synthetic Data Generation:
       - "synthetic_data/index.md"
-      - UI interface - YData Fabric: "synthetic_data/ydata_fabric_app.md"
+      
       - Generate Single Table:
         - GMM: "synthetic_data/single_table/gmm_example.md"
         - CGAN: "synthetic_data/single_table/cgan_example.md"

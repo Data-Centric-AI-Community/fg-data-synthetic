@@ -22,7 +22,4 @@ These KPIs, such as data fidelity and privacy scores, are displayed on the dashb
 Users have access to advanced settings, such as [conditional synthetic data generation](https://ydata.ai/resources/conditional-synthetic-data-generation-for-robust-machine-learning-applications) or business rules.
 - **Preserving Data Integrity:** For datasets requiring strict adherence to structural patterns (e.g., time-series data, healthcare records or databases).
 
-### Getting started with YData Fabric (Community version)
-YData Fabric’s Community Version offers users a free, accessible entry point to explore synthetic data generation. 
-To get started, users can [sign up for the Community Version and access the guided UI directly](https://ydata.ai/register).
-Once registered, users are provided with a range of features, including data profiling, synthetic data generation, pipelines and access to YData’s proprietary models for data quality!
+[Reach out to the YData team](https://ydata.ai/contact-us) to learn more about YData Fabric.

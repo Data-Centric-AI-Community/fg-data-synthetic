@@ -1,4 +1,1 @@
-"""Main module of ydata-synthetic.
-
-.. include:: ../../README.md
-"""
+#from .version import __version__

@@ -41,7 +41,7 @@ The repo includes a full ecosystem for synthetic data generation, that includes 
 All the Deep Learning models are implemented leveraging Tensorflow 2.0.
 Several example Jupyter Notebooks and Python scripts are included, to show how to use the different architectures.
 
-Are you ready to learn more about synthetic data and the bext-practices for synthetic data generation?
+Are you ready to learn more about synthetic data and the best-practices for synthetic data generation?
 
 ## Quickstart
 The source code is currently hosted on GitHub at: https://github.com/ydataai/ydata-synthetic

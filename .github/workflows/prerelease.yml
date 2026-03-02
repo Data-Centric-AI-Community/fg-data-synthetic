@@ -71,4 +71,4 @@ jobs:
         name: built-artifacts
         path: dist/
 
-    - uses: pypa/gh-action-pypi-publish@v1
+    - uses: pypa/gh-action-pypi-publish@release/v1

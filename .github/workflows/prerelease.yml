@@ -4,6 +4,9 @@ on:
   release:
     types: [ prereleased ]
 
+permissions:
+  contents: write
+
 jobs:
   package:
     name: Build and Package
@@ -51,11 +54,10 @@ jobs:
         name: built-artifacts
         path: dist/
 
-    - uses: AButler/upload-release-assets@v3.0
+    - uses: softprops/action-gh-release@v2.0
       with:
         files: 'dist/*'
-        repo-token: ${{ secrets.ACCESS_TOKEN }}
-        release-tag: ${{ needs.package.outputs.version }}
+        tag_name: ${{ needs.package.outputs.version }}
 
   publish-pypi:
     name: Publish packages to PyPi
@@ -69,7 +71,4 @@ jobs:
         name: built-artifacts
         path: dist/
 
-    - uses: pypa/gh-action-pypi-publish@v1.13.0
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_API_TOKEN }}
+    - uses: pypa/gh-action-pypi-publish@v1.8.14

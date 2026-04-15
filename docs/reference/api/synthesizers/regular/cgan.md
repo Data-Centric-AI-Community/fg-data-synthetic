@@ -1,2 +1,2 @@
 
-::: ydata_synthetic.synthesizers.regular.model.CGAN
+::: data_synthetic.synthesizers.regular.model.CGAN

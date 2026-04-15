@@ -1,2 +1,2 @@
 
-::: ydata_synthetic.preprocessing.regular.processor.RegularDataProcessor
+::: data_synthetic.preprocessing.regular.processor.RegularDataProcessor

@@ -24,7 +24,7 @@ Use the code snippet below in a python file:
     synthetic data generation streamlit app from a python script as notebooks are not supported! 
 
 ``` py
-    from ydata_synthetic import streamlit_app
+    from data_synthetic import streamlit_app
     streamlit_app.run()
 ```
 

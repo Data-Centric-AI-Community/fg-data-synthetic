@@ -8,8 +8,8 @@ The following example showcases how to synthesize the [Adult Census Income](http
     ```python
         # Import the necessary modules
         from pmlb import fetch_data
-        from ydata_synthetic.synthesizers.regular import RegularSynthesizer
-        from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
+        from data_synthetic.synthesizers.regular import RegularSynthesizer
+        from data_synthetic.synthesizers import ModelParameters, TrainParameters
 
         # Load data
         data = fetch_data('adult')
@@ -35,8 +35,8 @@ The following example showcases how to synthesize the [Yahoo Stock Price](https:
     ```python
         # Import the necessary modules
         import pandas as pd
-        from ydata_synthetic.synthesizers.timeseries import TimeSeriesSynthesizer
-        from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
+        from data_synthetic.synthesizers.timeseries import TimeSeriesSynthesizer
+        from data_synthetic.synthesizers import ModelParameters, TrainParameters
 
         # Define model parameters
         gan_args = ModelParameters(batch_size=128,
@@ -66,7 +66,7 @@ Once the package is [installed](installation.md) with the "streamlit" extra, the
 
 === "Streamlit App"
     ```python
-        from ydata_synthetic import streamlit_app
+        from data_synthetic import streamlit_app
 
         streamlit_app.run()
     ```

@@ -1,19 +1,16 @@
-> **`ydata-synthetic` is now `fg-data-synthetic`.** This package has been renamed to `fg-data-synthetic`. Please follow the [Migration Guide](#migration-guide) as soon as possible — the old package will no longer receive updates or bug fixes.
-
-
-![](https://img.shields.io/github/workflow/status/ydataai/ydata-synthetic/prerelease)
-![](https://img.shields.io/pypi/status/ydata-synthetic)
-[![](https://pepy.tech/badge/ydata-synthetic)](https://pypi.org/project/ydata-synthetic/)
+![](https://img.shields.io/github/workflow/status/ydataai/fg-data-synthetic/prerelease)
+![](https://img.shields.io/pypi/status/fg-data-synthetic)
+[![](https://pepy.tech/badge/fg-data-synthetic)](https://pypi.org/project/fg-data-synthetic/)
 ![](https://img.shields.io/badge/python-3.9%20%7C%203.10-blue)
-[![](https://img.shields.io/pypi/v/ydata-synthetic)](https://pypi.org/project/ydata-synthetic/)
-![](https://img.shields.io/github/license/ydataai/ydata-synthetic)
+[![](https://img.shields.io/pypi/v/fg-data-synthetic)](https://pypi.org/project/fg-data-synthetic/)
+![](https://img.shields.io/github/license/Data-Centric-AI-Community/fg-data-synthetic)
 <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=ab07c7a0-c1ee-481e-9368-baf70185cf40" />
 
-<p align="center"><img width="300" src="https://assets.ydata.ai/oss/ydata-synthetic_black.png" alt="YData Synthetic Logo"></p>
+<p align="center"><img width="300" src="https://assets.ydata.ai/oss/ydata-synthetic_black.png" alt="Data Synthetic Logo"></p>
 
 Join us on [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://tiny.ydata.ai/dcai-ydata-synthetic)
 
-# YData Synthetic
+# Data Synthetic
 A package to generate synthetic tabular and time-series data leveraging the state of the art generative models.
 
 ## 🎊 The exciting features:
@@ -72,7 +69,7 @@ Synthetic data can be used for many applications:
 > Check out the [Community Version](https://ydata.ai/ydata-fabric-free-trial).
 
 
-# ydata-synthetic
+# fg-data-synthetic
 This repository contains material related with architectures and models for synthetic data, from Generative Adversarial Networks (GANs) to Gaussian Mixtures.
 The repo includes a full ecosystem for synthetic data generation, that includes different models for the generation of synthetic structure data and time-series.
 All the Deep Learning models are implemented leveraging Tensorflow 2.0.
@@ -81,11 +78,11 @@ Several example Jupyter Notebooks and Python scripts are included, to show how t
 Are you ready to learn more about synthetic data and the bext-practices for synthetic data generation?
 
 ## Quickstart
-The source code is currently hosted on GitHub at: https://github.com/ydataai/ydata-synthetic
+The source code is currently hosted on GitHub at: https://github.com/Data-Centric-AI-Community/fg-data-synthetic
 
-Binary installers for the latest released version are available at the [Python Package Index (PyPI).](https://pypi.org/project/ydata-synthetic/)
-```commandline
-pip install ydata-synthetic
+Binary installers for the latest released version are available at the [Python Package Index (PyPI).](https://pypi.org/project/fg-data-synthetic/)
+```bash
+pip install fg-data-synthetic
 ```
 
 ### The UI guide for synthetic data generation
@@ -98,19 +95,19 @@ The streamlit app is available form *v1.0.0* onwards, and supports the following
 #### Installation
 
 ```commandline
-pip install ydata-synthetic[streamlit]
+pip install fg-data-synthetic[streamlit]
 ```
 #### Quickstart
 Use the code snippet below in a python file (Jupyter Notebooks are not supported):
 ```python
-from ydata_synthetic import streamlit_app
+from data_synthetic import streamlit_app
 
 streamlit_app.run()
 ```
 
-Or use the file streamlit_app.py that can be found in the [examples folder](https://github.com/ydataai/ydata-synthetic/tree/master/examples/streamlit_app.py).
+Or use the file streamlit_app.py that can be found in the [examples folder](https://github.com/Data-Centric-AI-Community/fg-data-synthetic/tree/master/examples/streamlit_app.py).
 
-```commandline
+```bash
 python -m streamlit_app
 ```
 
@@ -126,10 +123,10 @@ The below models are supported:
 
 ### Examples
 Here you can find usage examples of the package and models to synthesize tabular data.
-  - Fast tabular data synthesis on adult census income dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ydataai/ydata-synthetic/blob/master/examples/regular/models/Fast_Adult_Census_Income_Data.ipynb)
-  - Tabular synthetic data generation with CTGAN on adult census income dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ydataai/ydata-synthetic/blob/master/examples/regular/models/CTGAN_Adult_Census_Income_Data.ipynb)
-  - Time Series synthetic data generation with TimeGAN on stock dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ydataai/ydata-synthetic/blob/master/examples/timeseries/TimeGAN_Synthetic_stock_data.ipynb)
-  - Time Series synthetic data generation with DoppelGANger on FCC MBA dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ydataai/ydata-synthetic/blob/master/examples/timeseries/DoppelGANger_FCC_MBA_Dataset.ipynb)
+  - Fast tabular data synthesis on adult census income dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Centric-AI-Community/fg-data-synthetic/blob/master/examples/regular/models/Fast_Adult_Census_Income_Data.ipynb)
+  - Tabular synthetic data generation with CTGAN on adult census income dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Centric-AI-Community/fg-data-synthetic/blob/master/examples/regular/models/CTGAN_Adult_Census_Income_Data.ipynb)
+  - Time Series synthetic data generation with TimeGAN on stock dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Centric-AI-Community/fg-data-synthetic/blob/master/examples/timeseries/TimeGAN_Synthetic_stock_data.ipynb)
+  - Time Series synthetic data generation with DoppelGANger on FCC MBA dataset [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Data-Centric-AI-Community/fg-data-synthetic/blob/master/examples/timeseries/DoppelGANger_FCC_MBA_Dataset.ipynb)
   - More examples are continuously added and can be found in `/examples` directory.
 
 ### Datasets for you to experiment
@@ -140,8 +137,8 @@ Here are some example datasets for you to try with the synthesizers:
 - [Cardiovascular Disease dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
 
 #### Sequential datasets
-- [Stock data](https://github.com/ydataai/ydata-synthetic/tree/master/data)
-- [FCC MBA data](https://github.com/ydataai/ydata-synthetic/tree/master/data)
+- [Stock data](https://github.com/Data-Centric-AI-Community/fg-data-synthetic/tree/master/data)
+- [FCC MBA data](https://github.com/Data-Centric-AI-Community/fg-data-synthetic/tree/master/data)
 
 ## Project Resources
 
@@ -172,7 +169,7 @@ We are open to collaboration! If you want to start contributing you only need to
 For support in using this library, please join our Discord server. Our Discord community is very friendly and great about quickly answering questions about the use and development of the library. [Click here to join our Discord community!](https://tiny.ydata.ai/dcai-ydata-synthetic)
 
 ## FAQs
-Have a question? Check out the [Frequently Asked Questions](https://ydata.ai/resources/10-most-asked-questions-on-ydata-synthetic) about `ydata-synthetic`. If you feel something is missing, feel free to [book a beary informal chat with us](https://meetings.hubspot.com/fabiana-clemente).
+Have a question? Check out the [Frequently Asked Questions](https://ydata.ai/resources/10-most-asked-questions-on-ydata-synthetic) about `fg-data-synthetic`. If you feel something is missing, feel free to [book a beary informal chat with us](https://meetings.hubspot.com/fabiana-clemente).
 
 ## License
-[MIT License](https://github.com/ydataai/ydata-synthetic/blob/master/LICENSE)
+[MIT License](https://github.com/Data-Centric-AI-Community/fg-data-synthetic/blob/master/LICENSE)

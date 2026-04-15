@@ -1,2 +1,2 @@
 
-::: ydata_synthetic.preprocessing.base_processor.BaseProcessor
+::: data_synthetic.preprocessing.base_processor.BaseProcessor

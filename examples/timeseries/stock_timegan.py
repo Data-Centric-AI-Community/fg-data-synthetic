@@ -4,9 +4,9 @@
 
 # Importing necessary libraries
 from os import path
-from ydata_synthetic.synthesizers.timeseries import TimeSeriesSynthesizer
-from ydata_synthetic.preprocessing.timeseries import processed_stock
-from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
+from data_synthetic.synthesizers.timeseries import TimeSeriesSynthesizer
+from data_synthetic.preprocessing.timeseries import processed_stock
+from data_synthetic.synthesizers import ModelParameters, TrainParameters
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -1,5 +1,5 @@
 
 
 
-::: ydata_synthetic.synthesizers.base.BaseGANModel
+::: data_synthetic.synthesizers.base.BaseGANModel
 

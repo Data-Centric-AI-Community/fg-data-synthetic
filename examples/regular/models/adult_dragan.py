@@ -1,7 +1,7 @@
 from pmlb import fetch_data
 
-from ydata_synthetic.synthesizers.regular import RegularSynthesizer
-from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
+from data_synthetic.synthesizers.regular import RegularSynthesizer
+from data_synthetic.synthesizers import ModelParameters, TrainParameters
 
 #Load data and define the data processor parameters
 data = fetch_data('adult')

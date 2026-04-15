@@ -1,4 +1,3 @@
-from fileinput import FileInput
 from setuptools import setup, find_namespace_packages
 from pathlib import Path
 
@@ -10,10 +9,10 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 version = (here / 'VERSION').read_text().rstrip("\n")
 
-with open('src/ydata_synthetic/version.py', 'w') as version_file:
+with open('src/data_synthetic/version.py', 'w') as version_file:
   version_file.write(f'__version__ = \'{version}\'')
 
-setup(name='ydata-synthetic',
+setup(name='fg-data-synthetic',
       version=version,
       description='Synthetic data generation methods with different synthetization methods.',
       long_description=long_description,
@@ -40,8 +39,8 @@ setup(name='ydata-synthetic',
         'Topic :: Software Development :: Libraries :: Python Modules'
       ],
       keywords='data science ydata',
-      url='https://github.com/ydataai/ydata-synthetic',
-      license="https://github.com/ydataai/ydata-synthetic/blob/master/LICENSE",
+      url='https://github.com/Data-Centric-AI-Community/fg-data-synthetic',
+      license="https://github.com/Data-Centric-AI-Community/fg-data-synthetic/blob/master/LICENSE",
       python_requires=">=3.9, <3.12",
       packages=find_namespace_packages('src'),
       package_dir={'':'src'},

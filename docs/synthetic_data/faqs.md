@@ -18,7 +18,7 @@ pip install ydata-synthetic[streamlit]
 Note that Jupyter or Colab Notebooks are not yet supported, so you need to work it out in your Python environment. Once the package is installed, you can use the following snippet to start the app:
 
 ```python
-from ydata_synthetic import streamlit_app
+from data_synthetic import streamlit_app
 
 streamlit_app.run()
 ```

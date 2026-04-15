@@ -1,2 +1,2 @@
 
-::: ydata_synthetic.synthesizers.regular.model.WGAN_GP
+::: data_synthetic.synthesizers.regular.model.WGAN_GP

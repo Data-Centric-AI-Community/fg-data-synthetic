@@ -1,2 +1,2 @@
 
-::: ydata_synthetic.synthesizers.regular.model.DRAGAN
+::: data_synthetic.synthesizers.regular.model.DRAGAN

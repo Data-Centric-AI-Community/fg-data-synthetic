@@ -6,8 +6,8 @@
 import pandas as pd
 from os import path
 import matplotlib.pyplot as plt
-from ydata_synthetic.synthesizers.timeseries import TimeSeriesSynthesizer
-from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
+from data_synthetic.synthesizers.timeseries import TimeSeriesSynthesizer
+from data_synthetic.synthesizers import ModelParameters, TrainParameters
 
 # Read the data
 mba_data = pd.read_csv("../../data/fcc_mba.csv")

@@ -1,2 +1,2 @@
 
-::: ydata_synthetic.synthesizers.regular.model.CRAMERGAN
+::: data_synthetic.synthesizers.regular.model.CRAMERGAN

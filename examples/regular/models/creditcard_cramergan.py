@@ -7,9 +7,9 @@ import sklearn.cluster as cluster
 import numpy as np
 import pandas as pd
 
-from ydata_synthetic.utils.cache import cache_file
-from ydata_synthetic.synthesizers import ModelParameters, TrainParameters
-from ydata_synthetic.synthesizers.regular import RegularSynthesizer
+from data_synthetic.utils.cache import cache_file
+from data_synthetic.synthesizers import ModelParameters, TrainParameters
+from data_synthetic.synthesizers.regular import RegularSynthesizer
 
 #Read the original data and have it preprocessed
 data_path = cache_file('creditcard.csv', 'https://datahub.io/machine-learning/creditcard/r/creditcard.csv')

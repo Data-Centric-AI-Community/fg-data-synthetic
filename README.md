@@ -1,3 +1,6 @@
+> **`ydata-synthetic` is now `fg-data-synthetic`.** This package has been renamed to `fg-data-synthetic`. Please follow the [Migration Guide](#migration-guide) as soon as possible — the old package will no longer receive updates or bug fixes.
+
+
 ![](https://img.shields.io/github/workflow/status/ydataai/ydata-synthetic/prerelease)
 ![](https://img.shields.io/pypi/status/ydata-synthetic)
 [![](https://pepy.tech/badge/ydata-synthetic)](https://pypi.org/project/ydata-synthetic/)
@@ -18,6 +21,40 @@ A package to generate synthetic tabular and time-series data leveraging the stat
   > - A new streamlit app that delivers the synthetic data generation experience with a UI interface. A low code experience for the quick generation of synthetic data
   > - A new fast synthetic data generation model based on Gaussian Mixture. So you can quickstart in the world of synthetic data generation without the need for a GPU.
   > - A conditional architecture for tabular data: CTGAN, which will make the process of synthetic data generation easier and with higher quality!
+
+
+## Migration Guide
+ 
+### 1. Uninstall the old package
+ 
+```bash
+pip uninstall ydata-synthetic
+```
+ 
+### 2. Install the new package
+ 
+```bash
+pip install fg-data-synthetic
+```
+ 
+### 3. Update your imports
+ 
+Find and replace all occurrences of the old import in your codebase:
+ 
+```python
+# Before
+import ydata_synthetic
+from ydata_synthetic.synthesizers.regular import RegularSynthesizer
+
+# After
+import data_synthetic
+from data_synthetic.synthesizers.regular import RegularSynthesizer
+```
+ 
+You can use this one-liner to find all affected files:
+ 
+```bash
+grep -r "ydata_synthetic" . --include="*.py"
   
 ## Synthetic data
 ### What is synthetic data?

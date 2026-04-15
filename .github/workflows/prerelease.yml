@@ -2,7 +2,7 @@ name: prerelease
 
 on:
   release:
-    types: [ prereleased ]
+    types: [ prereleased, released ]
 
 permissions:
   contents: write
@@ -23,15 +23,15 @@ jobs:
       id: version
       run: echo ::set-output name=value::${GITHUB_REF#refs/*/}
 
-    - name: Setup Python 3.10
+    - name: Setup Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install wheel
+        python -m pip install "setuptools<80" wheel
 
     - name: Build package
       run: make package version=${{ steps.version.outputs.value }}

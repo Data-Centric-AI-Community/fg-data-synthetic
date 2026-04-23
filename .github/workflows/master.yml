@@ -4,6 +4,10 @@ on:
   push:
     branches: [ master ]
 
+permissions:
+  contents: write
+  id-token: write
+
 jobs:
   prepare:
     name: Calculate Version

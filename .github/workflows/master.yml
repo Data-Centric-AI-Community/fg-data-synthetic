@@ -20,8 +20,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.ACCESS_TOKEN }}
 
     - uses: cycjimmy/semantic-release-action@v3
       id: semantic
